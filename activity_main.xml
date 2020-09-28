@@ -6,53 +6,84 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <CalendarView
-        android:id="@+id/calendarView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="50dp"
-        tools:layout_editor_absoluteY="46dp" />
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="227dp"
+        android:layout_height="150dp"
+        app:srcCompat="@android:drawable/ic_menu_mapmode"
+        tools:layout_editor_absoluteX="190dp"
+        tools:layout_editor_absoluteY="239dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="115dp"
+        android:layout_height="114dp"
+        app:srcCompat="@android:drawable/ic_menu_compass"
+        tools:layout_editor_absoluteX="250dp"
+        tools:layout_editor_absoluteY="389dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="108dp"
+        android:layout_height="113dp"
+        app:srcCompat="@android:drawable/ic_menu_mylocation"
+        tools:layout_editor_absoluteX="250dp"
+        tools:layout_editor_absoluteY="514dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="94dp"
+        android:layout_height="92dp"
+        app:srcCompat="@android:drawable/ic_menu_myplaces"
+        tools:layout_editor_absoluteX="250dp"
+        tools:layout_editor_absoluteY="147dp" />
 
     <TextView
-        android:id="@+id/textView8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Start Date:"
-        tools:layout_editor_absoluteX="56dp"
-        tools:layout_editor_absoluteY="430dp" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName7"
-        android:layout_width="257dp"
-        android:layout_height="42dp"
-        android:layout_marginStart="20dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        app:layout_constraintStart_toEndOf="@+id/textView8"
-        tools:layout_editor_absoluteY="407dp" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName8"
-        android:layout_width="262dp"
-        android:layout_height="44dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="141dp"
-        tools:layout_editor_absoluteY="463dp" />
+        android:id="@+id/textView10"
+        android:layout_width="192dp"
+        android:layout_height="68dp"
+        android:text="MAP OPTIONS"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="41dp" />
 
     <TextView
-        android:id="@+id/textView9"
+        android:id="@+id/textView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="End Date:"
+        android:text="My Location:"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="177dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nearby Places:"
         tools:layout_editor_absoluteX="57dp"
-        tools:layout_editor_absoluteY="478dp" />
+        tools:layout_editor_absoluteY="298dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Compass:"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="437dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Locate Me:"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="553dp" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Schedule"
-        tools:layout_editor_absoluteX="174dp"
-        tools:layout_editor_absoluteY="582dp" />
+        android:text="Exit"
+        tools:layout_editor_absoluteX="178dp"
+        tools:layout_editor_absoluteY="696dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
